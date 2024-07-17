@@ -50,7 +50,7 @@ let x = lorem.indexOf('x');
 
 let alex = lorem[a] + lorem[l] +lorem[e] + lorem[x];
 
-alex = alex.splice(0, 1).toUpperCase() + alex.splice(1).toLowerCase();
-console.log(alex);
+cases= alex.slice(0, 1).toUpperCase() + alex.slice(1).toLowerCase();
+console.log(cases);
 
 
